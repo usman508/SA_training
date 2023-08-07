@@ -1,10 +1,10 @@
-import random
-x = 0
-if x == 0:
-    x = random.randint(0, 10)
-    print(x)
-else:
-    print("not x")
-# added on git remote repository
-# added on git local repository
-# ahgdka
+def fib(n):    # write Fibonacci series up to n
+    """Print a Fibonacci series up to n."""
+    a, b = 0, 1
+    while a < n:
+        print(a, end='\n')
+        a, b = b, a+b
+    print()
+
+
+fib(3000)
